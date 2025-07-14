@@ -235,7 +235,7 @@ h1 {
 
 .parent div {
     border: none;
-    background-color: #18191C;
+    background-color: #18191cd1;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -247,13 +247,13 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     justify-self: center;
 }
 
 .tools {
-    background-color: #171A1C;
+    background-color: #171a1cd9;
     border-radius: 12px;
     padding: 24px;
     text-align: left;
@@ -297,4 +297,41 @@ p {
     text-align: start;
     opacity: 0.8;
     /* color: deepskyblue; */
+}
+#tools h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#tools p{
+    color: white;
+    text-align: center;
+}
+.tools-img-1{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+.tools-img-1 img, .tools-img-2 img{
+    background-color: #171A1C;
+    padding: 10px;
+    border-radius: 15px;
+    max-height: 100px;
+
+}
+.tools-img-2{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+}
+#project h1{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+#project .col-md-6{
+    padding: 10px 30px;
+    background-color: #171A1C;
 }
